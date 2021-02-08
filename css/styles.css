@@ -1,0 +1,244 @@
+:root {
+    --primary-text-color: #000000;
+    --secont-text-color: #212121;
+    --accent-color: #2196f3;
+    --notactiv-color: #757575;
+    --primary-white-color: #ffffff;
+    --button-color: #f5f4fa;
+    --footer-backgr-color: #2f303a;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+
+/* шапка страницы*/
+
+.main-header {
+    background-color: var(--primary-white-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secont-text-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+}
+
+.logo-color {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.nav-link,
+.nav-info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus,
+.link.current,
+.link:focus,
+.link-mail:hover,
+.link-mail:focus {
+    color: var(--accent-color);
+}
+
+.link:active {
+    color: var(--notactiv-color);
+}
+
+.link-tel {
+    color: var(--notactiv-color);
+}
+
+
+/* главная секция */
+
+.main-info {
+    background-color: var(--footer-backgr-color);
+}
+
+.main-info.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.2;
+    color: var(--primary-white-color);
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.main-link:hover,
+.main-link:focus {
+    color: var(--notactiv-color);
+}
+
+
+/* секция приимущества студии */
+
+.post {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--secont-text-color);
+    text-transform: uppercase;
+}
+
+.post-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: var(--notactiv-color);
+}
+
+
+/* секция карточек Чем занимаются и Команда*/
+
+.cards-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--secont-text-color);
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--secont-text-color);
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-name-class {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--notactiv-color);
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+
+/* подвал */
+
+.footer {
+    background-color: var(--footer-backgr-color);
+    font-style: normal;
+}
+
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--primary-white-color);
+}
+
+.logo-color {
+    color: var(--accent-color);
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: var(--primary-white-color);
+}
+
+.footer-info-mail:hover,
+.footer-info-mail:focus {
+    color: var(--accent-color);
+}
+
+.footer-info-mail,
+.footer-info-tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: var(--notactiv-color);
+}
+
+
+/* Страница ПОРТФОЛИО */
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+button:hover,
+button:focus {
+    color: var(--primary-white-color);
+    background: var(--accent-color);
+}
+
+button:active {
+    color: var(--notactiv-color);
+}
+
+.portfolio-card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-card-more {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--notactiv-color);
+}

@@ -1,0 +1,142 @@
+/*
+* {
+    color: red;
+}
+
+li {
+    list-style: none;
+    color: green;
+}
+
+.rule {
+    list-style: upper-roman;
+    color: navy;
+}
+
+.common-rule {
+    list-style: upper-roman;
+    font-size: 20px;
+}
+
+.first-rule {
+    color: red;
+}
+
+.last-rule {
+    color: green;
+}
+
+.btn {
+    border: none;
+    padding: 0.25rem 1.25rem;
+}
+
+.link {
+    text-decoration: none;
+    color: navy;
+}
+
+
+/* Напиши свой код под этой строкой */
+
+
+/*
+.btn .active {
+    color: red;
+}
+
+.link,
+.active {
+    font-weight: 700;
+}
+
+.link {
+    text-decoration: none;
+    color: navy;
+    opacity: 0.5;
+}
+
+
+/* Напиши свой код под этой строкой */
+
+
+/*
+.link:hover,
+.link:focus {
+    opacity: 1;
+}
+
+<a class='link' href='#'>ссылка</a>.link[href='#'] {
+    color: red;
+}
+
+<a href='#'>ссылка</a><img src='img.jpg'>[src] {
+    display: block;
+    width: 100%;
+}
+
+[href='#'] {
+    color: red;
+}
+
+[type] {
+    color: white;
+}
+
+button[type='reset'] {
+    color: green;
+}
+
+.link {
+    text-decoration: none;
+}
+
+[href^='./'] {
+    color: red;
+}
+
+[href^='https'] {
+    color: navy;
+}
+
+.link {
+    text-decoration: none;
+}
+
+[href$='html'] {
+    color: green;
+}
+
+[href$='css'] {
+    color: orangered;
+}
+
+.link {
+    text-decoration: none;
+}
+
+[href*='about'] {
+    color: green;
+}
+
+[href*='com'] {
+    color: orangered;
+}
+
+.warning {
+    background-color: white;
+    color: red;
+}
+
+
+/*применение idкласса*/
+
+
+/*
+#sending {
+    background-color: teal;
+    color: white;
+}
+
+
+/*4-*;3-class;2-id;1-style*/
