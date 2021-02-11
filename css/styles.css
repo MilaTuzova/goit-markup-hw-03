@@ -257,6 +257,7 @@ section.main-info {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+    padding-bottom: 94px;
 }
 
 .cards-section {
@@ -294,7 +295,16 @@ section.main-info {
     font-style: normal;
 }
 
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
 .logo-footer {
+    display: inline-block;
+    padding-bottom: 20px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -307,11 +317,18 @@ section.main-info {
 }
 
 .address {
+    display: inline-block;
+    padding-bottom: 9px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
     color: var(--primary-white-color);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-info-mail:hover,
@@ -321,11 +338,20 @@ section.main-info {
 
 .footer-info-mail,
 .footer-info-tel {
+    display: inline-block;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
     color: var(--notactiv-color);
+}
+
+.footer-info-mail {
+    padding-bottom: 9px;
+}
+
+.footer-info-tel {
+    padding-bottom: 60px;
 }
 
 
