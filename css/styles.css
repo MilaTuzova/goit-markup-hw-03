@@ -37,11 +37,41 @@ body {
     letter-spacing: 0.03em;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+}
+
 
 /* шапка страницы*/
 
 .main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: var(--primary-white-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 a {
@@ -51,6 +81,11 @@ a {
 
 li {
     list-style-type: none;
+}
+
+nav a.logo {
+    display: inline-block;
+    margin-right: 93px;
 }
 
 .logo {
@@ -67,6 +102,24 @@ li {
 
 .current {
     color: var(--accent-color);
+}
+
+ul.nav-link,
+ul.nav-info {
+    display: flex;
+    flex-direction: row;
+}
+
+a.link {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+ul li .link.current,
+ul li .link-mail.link {
+    margin-left: 0ex;
 }
 
 .nav-link,
@@ -98,21 +151,38 @@ li {
 
 /* главная секция */
 
-.main-info {
+main {
+    display: block;
+}
+
+section.main-info {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
     background-color: var(--footer-backgr-color);
 }
 
 .main-info.title {
+    display: block;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.2;
     color: var(--primary-white-color);
+    background-color: var(--footer-backgr-color);
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .main-link {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+    margin-top: 30px;
+    min-width: 200px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
@@ -122,6 +192,10 @@ li {
     background-color: var(--accent-color);
 }
 
+.main-info .main-link {
+    text-align: center;
+}
+
 .main-link:hover,
 .main-link:focus {
     color: var(--notactiv-color);
@@ -129,6 +203,21 @@ li {
 
 
 /* секция приимущества студии */
+
+.post-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section.container.list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.post-list li {
+    flex-basis: calc(100% / 4 - 10px);
+}
 
 .post {
     font-weight: 700;
@@ -147,6 +236,28 @@ li {
 
 
 /* секция карточек Чем занимаются и Команда*/
+
+.list-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+
+/* Секция НАША КОМАНДА */
+
+.container.team {
+    padding-top: 94px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
 
 .cards-section {
     font-weight: 700;
