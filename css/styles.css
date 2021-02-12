@@ -224,12 +224,12 @@ nav a.logo {
 }
 
 .post {
+    padding-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
     color: var(--secont-text-color);
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 .post-text {
