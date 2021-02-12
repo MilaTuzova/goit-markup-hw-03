@@ -61,11 +61,20 @@ ul {
 
 /* шапка страницы*/
 
-.main-header {
+.main-header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.main-header {
     background-color: var(--primary-white-color);
+}
+
+ul.nav-link,
+ul.nav-info {
+    display: flex;
+    flex-direction: row;
 }
 
 nav {
@@ -86,6 +95,8 @@ li {
 nav a.logo {
     display: inline-block;
     margin-right: 93px;
+    margin-top: 24px;
+    margin-bottom: 25px;
 }
 
 .logo {
@@ -104,24 +115,18 @@ nav a.logo {
     color: var(--accent-color);
 }
 
-ul.nav-link,
-ul.nav-info {
-    display: flex;
-    flex-direction: row;
-}
-
-a.link {
+.link {
     display: inline-block;
     margin-left: 50px;
     margin-top: 32px;
     margin-bottom: 32px;
 }
 
-ul li .link.first {
+.link.first {
     margin-left: 0;
 }
 
-ul li .link-mail.link {
+.link-mail.link {
     margin-left: 0;
 }
 
