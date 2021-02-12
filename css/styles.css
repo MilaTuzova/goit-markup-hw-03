@@ -95,8 +95,8 @@ li {
 nav a.logo {
     display: inline-block;
     margin-right: 93px;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -159,15 +159,14 @@ nav a.logo {
 
 /* главная секция */
 
-main {
-    display: block;
-}
-
-section.main-info {
-    padding-top: 200px;
-    padding-bottom: 200px;
+.main-info {
     text-align: center;
     background-color: var(--footer-backgr-color);
+}
+
+.main-info .container {
+    padding-top: 200px;
+    padding-bottom: 210px;
 }
 
 .main-info.title {
@@ -182,6 +181,7 @@ section.main-info {
     text-transform: uppercase;
     padding-left: auto;
     padding-right: auto;
+    padding-bottom: 30px;
 }
 
 .main-link {
@@ -189,7 +189,6 @@ section.main-info {
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 10px 32px;
-    margin-top: 30px;
     min-width: 200px;
     font-weight: 700;
     font-size: 16px;
@@ -216,9 +215,6 @@ section.main-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.section.container.list {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -233,6 +229,7 @@ section.main-info {
     line-height: 1.2;
     color: var(--secont-text-color);
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .post-text {
@@ -256,7 +253,7 @@ section.main-info {
 
 /* Секция НАША КОМАНДА */
 
-.container.team {
+.team .container {
     padding-top: 94px;
 }
 
@@ -264,7 +261,7 @@ section.main-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 50px;
     padding-bottom: 94px;
 }
 
@@ -278,6 +275,8 @@ section.main-info {
 }
 
 .team-name {
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -287,6 +286,7 @@ section.main-info {
 }
 
 .team-name-class {
+    padding-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -365,7 +365,7 @@ section.main-info {
 
 /* Страница ПОРТФОЛИО */
 
-.portfolio.container {
+.portfolio .container {
     padding-top: 95px;
 }
 
@@ -422,7 +422,13 @@ button:active {
     margin-right: 0px;
 }
 
+.portfolio-card-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
 .portfolio-card-title {
+    padding-top: 20px;
+    padding-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -430,6 +436,7 @@ button:active {
 }
 
 .portfolio-card-more {
+    padding-bottom: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
