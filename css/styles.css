@@ -159,12 +159,9 @@ nav a.logo {
 
 /* главная секция */
 
-.main-info {
+.main-section {
     text-align: center;
     background-color: var(--footer-backgr-color);
-}
-
-.main-info .container {
     padding-top: 200px;
     padding-bottom: 210px;
 }
@@ -179,8 +176,6 @@ nav a.logo {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-    padding-left: auto;
-    padding-right: auto;
     padding-bottom: 30px;
 }
 
@@ -301,13 +296,14 @@ nav a.logo {
 .footer {
     background-color: var(--footer-backgr-color);
     font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 60px;
 }
 
 .logo-footer {
@@ -356,10 +352,6 @@ nav a.logo {
 
 .footer-info-mail {
     padding-bottom: 9px;
-}
-
-.footer-info-tel {
-    padding-bottom: 60px;
 }
 
 
