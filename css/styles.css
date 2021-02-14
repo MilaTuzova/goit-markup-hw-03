@@ -417,12 +417,11 @@ nav a.logo {
 /* Страница ПОРТФОЛИО */
 
 .portfolio {
+    border-top: 2px solid var(--button-color);
     padding-top: 95px;
     padding-bottom: 94px;
-}
-
-.portfolio .container {
-    border-top: 2px solid var(--button-color);
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .portfolio-button {
