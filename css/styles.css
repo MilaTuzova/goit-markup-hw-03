@@ -120,8 +120,6 @@ nav a.logo {
 .link {
     display: inline-block;
     margin-left: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .link.first {
@@ -163,11 +161,9 @@ nav a.logo {
 
 .main-section {
     text-align: center;
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: var(--footer-backgr-color);
     padding-top: 200px;
     padding-bottom: 210px;
+    background-color: var(--footer-backgr-color);
 }
 
 .main-info.title {
@@ -295,9 +291,6 @@ nav a.logo {
 
 .team {
     background-color: #f5f4fa;
-    width: 1600px;
-    text-align: center;
-    margin: 0 auto;
 }
 
 .team-list-block {
@@ -352,8 +345,6 @@ nav a.logo {
     display: block;
     padding-top: 60px;
     padding-bottom: 60px;
-    max-width: 1600px;
-    margin: 0 auto;
     background-color: var(--footer-backgr-color);
     font-style: normal;
 }
@@ -413,8 +404,6 @@ nav a.logo {
     border-top: 2px solid var(--button-color);
     padding-top: 95px;
     padding-bottom: 94px;
-    width: 1600px;
-    margin: 0 auto;
 }
 
 .portfolio-button {
